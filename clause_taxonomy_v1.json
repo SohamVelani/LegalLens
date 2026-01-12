@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "project": "LegalLens",
+  "description": "Final clause taxonomy for clause classification and risk analysis",
+  "labels": [
+    "Deposit",
+    "Termination",
+    "Notice Period",
+    "Rent Increase",
+    "Indemnity",
+    "Renewal",
+    "Confidentiality",
+    "Non-Compete",
+    "Maintenance & Repairs",
+    "Governing Law",
+    "Other"
+  ],
+  "labeling_rules": {
+    "one_label_per_clause": true,
+    "primary_intent_rule": true,
+    "use_other_if_uncertain": true
+  }
+}
