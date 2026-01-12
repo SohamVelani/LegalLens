@@ -2,15 +2,11 @@
 
 LegalLens is a final-year capstone project that aims to help non-legal users understand and assess risks in legal contracts by automatically identifying, classifying, and explaining potentially harmful clauses using AI and NLP techniques.
 
----
-
 ## Project Status
 
 **Phase 1: Design & Planning – Completed ✅**
 
 The initial design and planning phase of the project has been completed. This phase focused on defining the system architecture, data strategy, and core design decisions before beginning implementation.
-
----
 
 ## Phase 1 Deliverables
 
@@ -35,8 +31,6 @@ A clear strategy for training, validation, and testing has been defined to preve
 - Labeled data split: 70% Train / 15% Validation / 15% Test (stratified)
 - Unlabeled data: Used only for representation learning and retrieval
 
----
-
 ## Datasets
 
 The project uses publicly available legal datasets during the offline training phase (Google Colab):
@@ -47,16 +41,12 @@ The project uses publicly available legal datasets during the offline training p
 
 > Note: These datasets are used only for offline training and evaluation. User-uploaded documents are never used for model training.
 
----
-
 ## Privacy Considerations
 
 - User documents are processed only during inference
 - No user data is retained beyond a limited time window
 - No user documents are used for future model training
 - All design decisions follow a privacy-first approach
-
----
 
 ## Next Steps
 
@@ -68,7 +58,7 @@ The project uses publicly available legal datasets during the offline training p
 - Preparation of training-ready datasets
 - Model training and evaluation
 
----
-
 ## Repository Structure (Early Stage)
 
+👨‍💻 Author Soham Velani
+B.Tech | IT
