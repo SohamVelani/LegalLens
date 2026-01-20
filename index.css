@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@keyframes scan-move {
+  0% { top: 0%; opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { top: 100%; opacity: 0; }
+}
+
+.animate-scan {
+  animation: scan-move 3s linear infinite;
+}
+
+/* Custom Scrollbar for the PDF Viewer */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9; /* Slate-100 */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1; /* Slate-300 */
+  border-radius: 20px;
+  border: 3px solid #f1f5f9;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #94a3b8; /* Slate-400 */
+}
+
+/* Scanning Animation (Ensure this is present) */
+@keyframes scan-move {
+  0% { top: 0%; opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { top: 100%; opacity: 0; }
+}
+
+.animate-scan {
+  /* Run 3 seconds, linear speed, 3 times only, then stop at the end state (invisible) */
+  animation: scan-move 3s linear 3 forwards;
+}
+
